@@ -1,0 +1,10 @@
+{
+  "name": "init-i18n",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "devDependencies": {
+    "@nuxt/kit": "^3.5.2",
+    "@types/node": "^18"
+  }
+}

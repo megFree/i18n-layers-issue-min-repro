@@ -1,0 +1,1 @@
+module for initizalization i18n

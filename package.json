@@ -1,0 +1,17 @@
+{
+  "name": "i18n-layers-issue-min-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "base": "workspace:*",
+    "extends": "workspace:*",
+    "init-i18n": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
