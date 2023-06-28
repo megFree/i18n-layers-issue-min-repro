@@ -1,7 +1,12 @@
 export default defineNuxtConfig({
   ssr: false,
+  // if I remove "extends" all works fine
   extends: ["../base"],
-  // if I add this section and remove my plugin init-i18n, all works fine
+  modules: [
+    'init-i18n',
+    '@nuxtjs/i18n'
+  ]
+  // or If i provide hardcoded i18n config all works fine
   // i18n: {
   //   baseUrl: "/",
   //   defaultLocale: "en",
